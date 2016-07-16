@@ -1,3 +1,5 @@
+
+/*header image */
 .jumbotron{
   background-image: url(../img/header-image.jpg);
   background-repeat: no-repeat;
@@ -6,29 +8,18 @@
   height: 300px;
 
 }
-
-table td {
-    /*background-color: lime;*/
-    /*margin: 12px 12px 12px 12px;*/
-    padding: 12px 12px 12px 12px;
+table{
+  width: 100%;
 }
-.col{
-  border: 1px dotted lightblue;
-
+table td{
+  padding: 10px  ;
+  text-align: left;
 }
 
-thead{
-  font-size: 20px;
+
+
+tr:nth-child(odd)>td{
+  background: grey;
+  color: white;
   font-weight: bold;
-
 }
-
-/*.table-striped>tbody>tr:nth-child(odd)>td,
-.table-striped>tbody>tr:nth-child(odd)>th {
-   background-color:orange;
- }*/
-
- tr:nth-child(odd)>td,
- tr:nth-child(odd)>td{
-   background: orange;
- }
