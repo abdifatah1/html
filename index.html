@@ -5,336 +5,553 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
   <meta http-equiv="x-ua-compatible" content="ie=edge">
+  <link rel="shortcut icon" href="favicon.ico">
+  <title>html Cheatsheet</title>
   <!-- Bootstrap CSS -->
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.2/css/bootstrap.min.css" integrity="sha384-y3tfxAZXuh4HwSYylfB+J125MxIs6mR5FOHamPBG064zB+AFeWH94NdvaCBm8qnd" crossorigin="anonymous">
   <link rel="stylesheet" href="css/style.css">
-
 </head>
 <body>
   <!-- header starts here-->
   <header>
     <!-- <img src="img/header-image.jpg" alt="header image" /> -->
-    <div class="jumbotron">
+    <div id="Accueil" class="jumbotron">
       <!-- <h1>HTML CHEATSHEET!</h1> -->
+      <nav class="navbar m-t-3 col-md-4 ">
+        <ul class="nav navbar-nav">
+          <li class="nav-item">
+            <a class="nav-link" href="#Accueil">Accueil</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#structure">Structure</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#markup">Text MarkUp</a>
+          </li>
+        </ul>
+      </nav>
     </div>
+
+
   </header>
+
   <!-- header ends  -->
 
   <!-- container  -->
-  <div class="container">
-    <div class="row">
+  <div class="container m-r-2">
+    <section class="row">
 
       <!-- Document ouline -->
-      <div class="col col-md-4">
-        <table class="table-striped">
-          <thead>
-            <th>Document outline</th>
-          </thead>
+      <table class="table-striped col col-md-3">
+        <thead>
           <tr>
-            <td>&lt!DOCTYPE html&gt</td>
-            <td>Version of (X)HTML</td>
+            <th colspan="2">Document outline</th>
           </tr>
+        </thead>
+        <tr>
+          <td>&lt!DOCTYPE html&gt</td>
+          <td>Version of (X)HTML</td>
+        </tr>
 
-          <tr>
-            <td>&lthtml&gt</td>
-            <td>Html document</td>
-          </tr>
+        <tr>
+          <td>&lthtml&gt</td>
+          <td>Html document</td>
+        </tr>
 
-          <tr>
-            <td>&lthead&gt</td>
-            <td>Page information</td>
-          </tr>
+        <tr>
+          <td>&lthead&gt</td>
+          <td>Page information</td>
+        </tr>
 
-          <tr>
-            <td>&ltbody&gt</td>
-            <td>Page content</td>
-          </tr>
+        <tr>
+          <td>&ltbody&gt</td>
+          <td>Page content</td>
+        </tr>
 
-        </table>
-      </div>
+        <tr>
+          <td>&ltobject&gt</td>
+          <td>Object</td>
+        </tr>
+
+        <tr>
+          <td>&ltparam/&gt</td>
+          <td>Parameter</td>
+        </tr>
+
+      </table>
       <!-- /Document outline -->
 
       <!-- List -->
-      <div class="col col-md-4">
-        <table class="table-striped">
-          <!-- table headline -->
-          <thead>
-            <th>List</th>
-          </thead>
-          <!-- /table headline -->
+      <table class="col col-md-3">
+        <!-- table headline -->
+        <thead>
           <tr>
-            <td>&ltul&gt</td>
-            <td>Un ordered list</td>
+            <th colspan="2">List</th>
           </tr>
+        </thead>
+        <!-- /table headline -->
+        <tr>
+          <td>&ltul&gt</td>
+          <td>Un ordered list</td>
+        </tr>
 
-          <tr>
-            <td>&ltol&gt</td>
-            <td>Ordered list</td>
-          </tr>
+        <tr>
+          <td>&ltol&gt</td>
+          <td>Ordered list</td>
+        </tr>
 
-          <tr>
-            <td>&ltli&gt</td>
-            <td>List item</td>
-          </tr>
+        <tr>
+          <td>&ltli&gt</td>
+          <td>List item</td>
+        </tr>
 
-          <tr>
-            <td>&ltdl&gt</td>
-            <td>Definition list</td>
-          </tr>
+        <tr>
+          <td>&ltdl&gt</td>
+          <td>Definition list</td>
+        </tr>
 
-          <tr>
-            <td>&ltdt&gt</td>
-            <td>Definition term</td>
-          </tr>
+        <tr>
+          <td>&ltdt&gt</td>
+          <td>Definition term</td>
+        </tr>
 
-          <tr>
-            <td>&ltdd&gt</td>
-            <td>Term description </td>
-          </tr>
+        <tr>
+          <td>&ltdd&gt</td>
+          <td>Term description </td>
+        </tr>
 
-        </table>
-      </div>
+      </table><!--table ends here-->
       <!-- /List -->
 
       <!-- Page information -->
-      <div class="col col-md-4">
-        <table>
 
-          <thead>
-            <th>Page information</th>
-          </thead>
+      <table class="col col-md-3">
 
+        <thead>
           <tr>
-            <td>&ltbase/l&gt</td>
-            <td>Base URL</td>
+            <th colspan="2">Page information</th>
           </tr>
+        </thead>
 
+        <tr>
+          <td>&ltbase/l&gt</td>
+          <td>Base URL</td>
+        </tr>
+
+        <tr>
+          <td>&ltmeta/&gt</td>
+          <td>Meta data</td>
+        </tr>
+
+        <tr>
+          <td>&lttitle/&gt</td>
+          <td>Title</td>
+        </tr>
+
+        <tr>
+          <td>&ltlink/&gt</td>
+          <td>Page content</td>
+        </tr>
+
+        <tr>
+          <td>&ltstyle&gt</td>
+          <td>Page content</td>
+        </tr>
+
+        <tr>
+          <td>&ltscript&gt</td>
+          <td>Page content</td>
+        </tr>
+
+      </table><!-- table ends here -->
+    </section><!-- first row ends here -->
+
+    <!-- second row starts here -->
+    <section class="row p-t-1">
+      <!-- Document structure & links -->
+      <table id="structure" class="col col-md-3">
+
+        <thead>
           <tr>
-            <td>&ltmeta/&gt</td>
-            <td>Meta data</td>
+            <th colspan="2">Document structure and links</th>
           </tr>
+        </thead>
 
-          <tr>
-            <td>&lttitle/&gt</td>
-            <td>Title</td>
-          </tr>
+        <tr>
+          <td>&lth[1-6]&gt</td>
+          <td>Heading</td>
+        </tr>
 
-          <tr>
-            <td>&ltlink/&gt</td>
-            <td>Page content</td>
-          </tr>
+        <tr>
+          <td>&ltdiv&gt</td>
+          <td>Page section</td>
+        </tr>
 
-          <tr>
-            <td>&ltstyle&gt</td>
-            <td>Page content</td>
-          </tr>
+        <tr>
+          <td>&ltspan&gt</td>
+          <td>Inline section</td>
+        </tr>
 
-          <tr>
-            <td>&ltscript&gt</td>
-            <td>Page content</td>
-          </tr>
+        <tr>
+          <td>&ltp&gt</td>
+          <td>Paragraph</td>
+        </tr>
 
-        </table>
+        <tr>
+          <td>&ltbr/&gt</td>
+          <td>Line break</td>
+        </tr>
 
-      </div>
-    </div>
+        <tr>
+          <td>&lthr/&gt</td>
+          <td>Horizontal rule</td>
+        </tr>
 
-    <!-- second row starts here -->*
-    <div class="row p-t-1">
-      <!-- Document stracture & links -->
-      <div class="col col-md-4">
-        <table>
+        <tr>
+          <td>&lta href=""&gt</td>
+          <td>Page link</td>
+        </tr>
 
-          <thead>
-            <tr>
-              <th>Document stracture and links</th>
-            </tr>
-          </thead>
+        <tr>
+          <td>&lta href="mailto:"&gt</td>
+          <td>Email link</td>
+        </tr>
 
-          <tr>
-            <td>&lth[1-6]&gt</td>
-            <td>Heading</td>
-          </tr>
+        <tr>
+          <td>&lta name ="name"&gt</td>
+          <td>Anchor</td>
+        </tr>
 
-          <tr>
-            <td>&ltdiv&gt</td>
-            <td>Page section</td>
-          </tr>
+        <tr>
+          <td>&lta href="#name"&gt</td>
+          <td>Link to anchor</td>
+        </tr>
 
-          <tr>
-            <td>&ltspan&gt</td>
-            <td>Inline section</td>
-          </tr>
-
-          <tr>
-            <td>&ltp&gt</td>
-            <td>Paragraph</td>
-          </tr>
-
-          <tr>
-            <td>&ltbr/&gt</td>
-            <td>Line break</td>
-          </tr>
-
-          <tr>
-            <td>&lthr/&gt</td>
-            <td>Horizontal rule</td>
-          </tr>
-
-          <tr>
-            <td>&lta href=""&gt</td>
-            <td>Page link</td>
-          </tr>
-
-          <tr>
-            <td>&lta href="mailto:"&gt</td>
-            <td>Email link</td>
-          </tr>
-
-          <tr>
-            <td>&lta name ="name"&gt</td>
-            <td>Anchor</td>
-          </tr>
-
-          <tr>
-            <td>&lta href="#name"&gt</td>
-            <td>Link to anchor</td>
-          </tr>
-
-        </table>
-      </div>
-      <!-- Document stracture and links end here -->
+      </table>
+      <!-- Document structure and links end here -->
 
       <!-- form -->
-      <div class="col col-md-4">
-        <table>
+      <table class="col col-md-3">
 
-          <thead>
-            <th>Form</th>
-          </thead>
-
+        <thead>
           <tr>
-            <td>&ltform&gt</td>
-            <td>Form</td>
+            <th colspan="2">Form</th>
           </tr>
+        </thead>
 
+        <tr>
+          <td>&ltform&gt</td>
+          <td>Form</td>
+        </tr>
+
+        <tr>
+          <td>&ltfieldset&gt</td>
+          <td>collection of fields</td>
+        </tr>
+
+        <tr>
+          <td>&ltlegend&gt</td>
+          <td>Form legend</td>
+        </tr>
+
+        <tr>
+          <td>&ltlabel&gt</td>
+          <td>Input label</td>
+        </tr>
+
+        <tr>
+          <td>&ltInput/&gt</td>
+          <td>Form input</td>
+        </tr>
+
+        <tr>
+          <td>&ltselect&gt</td>
+          <td>Drop-down box</td>
+        </tr>
+
+        <tr>
+          <td>&ltoptgroup&gt</td>
+          <td>Group of options</td>
+        </tr>
+
+        <tr>
+          <td>&ltoption&gt</td>
+          <td>Drop-down options</td>
+        </tr>
+
+        <tr>
+          <td>&lttextarea&gt</td>
+          <td>Large text input</td>
+        </tr>
+
+        <tr>
+          <td>&ltbutton&gt</td>
+          <td>Button</td>
+        </tr>
+
+      </table>
+      <!-- /form -->
+
+      <!-- table structure-->
+      <table class="col col-md-3">
+
+        <thead>
           <tr>
-            <td>&ltfieldset&gt</td>
-            <td>collection of fields</td>
+            <th colspan="2">Table structure</th>
           </tr>
+        </thead>
 
+        <tr>
+          <td>&lttable&gt</td>
+          <td>Table</td>
+        </tr>
+
+        <tr>
+          <td>&ltcaption&gt</td>
+          <td>Caption</td>
+        </tr>
+
+        <tr>
+          <td>&ltthead&gt</td>
+          <td>Table head</td>
+        </tr>
+
+        <tr>
+          <td>&lttbody&gt</td>
+          <td>Table body</td>
+        </tr>
+
+        <tr>
+          <td>&lttfoot&gt</td>
+          <td>Table footer</td>
+        </tr>
+
+        <tr>
+          <td>&ltcolgroup&gt</td>
+          <td>Column group</td>
+        </tr>
+
+        <tr>
+          <td>&ltcol/&gt</td>
+          <td>Column</td>
+        </tr>
+
+        <tr>
+          <td>&lttr&gt</td>
+          <td>Table row</td>
+        </tr>
+
+        <tr>
+          <td>&ltth&gt</td>
+          <td>Table header</td>
+        </tr>
+
+        <tr>
+          <td>&lttd&gt</td>
+          <td>Table</td>
+        </tr>
+
+      </table><!-- /table structure -->
+    </section>  <!-- second row ends here -->
+
+    <!-- third row starts here -->
+    <section class="row p-t-1">
+      <!-- text markup -->
+      <table id="markup"  class="col col-md-3">
+        <thead>
           <tr>
-            <td>&ltlegend&gt</td>
-            <td>Form legend</td>
+            <th colspan="2">Text MarkUp</th>
           </tr>
+        </thead>
 
+        <tr>
+          <td>&ltstrong&gt</td>
+          <td>Strong emphasis</td>
+        </tr>
+
+        <tr>
+          <td>&ltem&gt</td>
+          <td>Emphasis</td>
+        </tr>
+
+        <tr>
+          <td>&ltblockquote&gt</td>
+          <td>Long quotation</td>
+        </tr>
+
+        <tr>
+          <td>&ltq&gt</td>
+          <td>Short quotation</td>
+        </tr>
+
+        <tr>
+          <td>&ltabbr&gt</td>
+          <td>Abbeviation</td>
+        </tr>
+
+        <tr>
+          <td>&ltacronym&gt</td>
+          <td>Acronym</td>
+        </tr>
+
+        <tr>
+          <td>&ltadressgt</td>
+          <td>Adresse</td>
+        </tr>
+
+        <tr>
+          <td>&ltpre&gt</td>
+          <td>Pre-formatted text</td>
+        </tr>
+
+        <tr>
+          <td>&ltdfn&gt</td>
+          <td>Defination</td>
+        </tr>
+
+        <tr>
+          <td>&ltcode&gt</td>
+          <td>Code</td>
+        </tr>
+
+      </table>
+      <!-- Document structure and links end here -->
+
+      <!-- form -->
+      <table class="col col-md-3">
+
+        <thead>
           <tr>
-            <td>&ltlabel&gt</td>
-            <td>Input label</td>
+            <th colspan="2">Images and image maps</th>
           </tr>
+        </thead>
 
+        <tr>
+          <td>&ltimg/&gt</td>
+          <td>image</td>
+        </tr>
+
+        <tr>
+          <td>&ltmap&gt</td>
+          <td>Image Map</td>
+        </tr>
+
+        <tr>
+          <td>&ltarea/&gt</td>
+          <td>Area of image map</td>
+        </tr>
+
+        <tr>
+          <td>&ltlabel&gt</td>
+          <td>Input label</td>
+        </tr>
+
+        <tr>
+          <td>&ltInput/&gt</td>
+          <td>Form input</td>
+        </tr>
+
+        <tr>
+          <td>&ltselect&gt</td>
+          <td>Drop-down box</td>
+        </tr>
+
+        <tr>
+          <td>&ltoptgroup&gt</td>
+          <td>Group of options</td>
+        </tr>
+
+        <tr>
+          <td>&ltoption&gt</td>
+          <td>Drop-down options</td>
+        </tr>
+
+        <tr>
+          <td>&lttextarea&gt</td>
+          <td>Large text input</td>
+        </tr>
+
+        <tr>
+          <td>&ltbutton&gt</td>
+          <td>Button</td>
+        </tr>
+
+      </table>
+      <!-- /form -->
+
+      <!-- Common character-->
+
+      <table class="col col-md-3">
+
+        <thead>
           <tr>
-            <td>&ltInput/&gt</td>
-            <td>Form input</td>
+            <th colspan="2">Common character entities</th>
           </tr>
+        </thead>
 
-          <tr>
-            <td>&ltselect&gt</td>
-            <td>Drop-down box</td>
-          </tr>
+        <tr>
+          <td>& #34;</td>
+          <td>(")Quotation mark</td>
+        </tr>
 
-          <tr>
-            <td>&ltoptgroup&gt</td>
-            <td>Group of options</td>
-          </tr>
+        <tr>
+          <td>& #38;</td>
+          <td>Ampersand</td>
+        </tr>
 
-          <tr>
-            <td>&ltoption&gt</td>
-            <td>Drop-down options</td>
-          </tr>
+        <tr>
+          <td>& #60;</td>
+          <td>(<)Less than</td>
+        </tr>
 
-          <tr>
-            <td>&lttextarea&gt</td>
-            <td>Large text input</td>
-          </tr>
+        <tr>
+          <td>& #2;</td>
+          <td>(>)Greater than</td>
+        </tr>
 
-          <tr>
-            <td>&ltbutton&gt</td>
-            <td>Button</td>
-          </tr>
+        <tr>
+          <td>& #64;</td>
+          <td>(@)(At)symbol</td>
+        </tr>
 
-        </table>
-      </div>    <!-- /form -->
+        <tr>
+          <td>& #169</td>
+          <td>(©)Copyright symbol</td>
+        </tr>
 
-      <!-- table -->
-      <div class="col col-md-4">
-        <table>
+        <tr>
+          <td>& #128;</td>
+          <td>(€)Euro</td>
+        </tr>
 
-          <thead>
-            <th>Table stracture</th>
-          </thead>
+        <tr>
+          <td>& #149;</td>
+          <td>(•)Small bullet</td>
+        </tr>
 
-          <tr>
-            <td>&lttable&gt</td>
-            <td>Table</td>
-          </tr>
+        <tr>
+          <td>& #153;</td>
+          <td>(™) Trademark</td>
+        </tr>
 
-          <tr>
-            <td>&ltcaption&gt</td>
-            <td>Caption</td>
-          </tr>
+        <tr>
+          <td>& #163;</td>
+          <td>(£)Pound</td>
+        </tr>
 
-          <tr>
-            <td>&ltthead&gt</td>
-            <td>Table head</td>
-          </tr>
+      </table><!-- /Common character -->
+    </section>  <!-- third row ends here -->
+  </div><!-- end of container -->
+  <!-- button to go up -->
+  <a href="#" class="top">Go Up</a>
 
-          <tr>
-            <td>&lttbody&gt</td>
-            <td>Table body</td>
-          </tr>
-
-          <tr>
-            <td>&lttfoot&gt</td>
-            <td>Table footer</td>
-          </tr>
-
-          <tr>
-            <td>&ltcolgroup&gt</td>
-            <td>Column group</td>
-          </tr>
-
-          <tr>
-            <td>&ltcol/&gt</td>
-            <td>Column</td>
-          </tr>
-
-          <tr>
-            <td>&lttr&gt</td>
-            <td>Table row</td>
-          </tr>
-
-          <tr>
-            <td>&ltth&gt</td>
-            <td>Table header</td>
-          </tr>
-
-          <tr>
-            <td>&lttd&gt</td>
-            <td>Table</td>
-          </tr>
-
-        </table>
-      </div> <!-- /form -->
-
-
-    </div>
-
-
-  </div>
-
-
-
+  <!-- footer -->
+  <footer>
+    <nav class="navbar text-xs-center navbar-bottom navbar-light bg-info">
+      &copy;Abdifatah 2016
+    </nav>
+  </footer>
+  <!-- /footer -->
 
   <!-- jQuery first, then Bootstrap JS. -->
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
