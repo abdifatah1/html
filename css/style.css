@@ -13,6 +13,9 @@
   font-size: 25px;
   font-weight: bold;
 }
+.nav-link{
+ color:white; 
+}
 
   /*margin between the cols*/
 .col{
